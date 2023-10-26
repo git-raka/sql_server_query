@@ -30,6 +30,13 @@ UPDATE employees
 SET salary = 50000, department = 'Sales'
 WHERE employee_id = 123;
 ```
+### DELETE
+```
+USE BSP
+GO
+DELETE FROM T33_UDT_TESTING
+WHERE noid = 5;
+```
 
 ### ENABLE SQL SERVER AGENT
 ```
